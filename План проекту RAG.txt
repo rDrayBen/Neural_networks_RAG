@@ -1,0 +1,10 @@
+План проекту RAG
+1. Джерело: книга(граф монте крісто англ версія)
+2. Chunking буде
+3. Retriver bm25+reranker(sentence bert) 
+4. LiteLLM library (llama3-8b-8192 model)
+5. Metadata filtering не буде
+6. Цитування буде(посилання на номер розділу/цитата)
+7. Векторні бд не буде
+8. Веб UI (https://www.gradio.app/)
+
