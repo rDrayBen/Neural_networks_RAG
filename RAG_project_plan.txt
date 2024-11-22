@@ -1,0 +1,11 @@
+RAG project planning:
+1. Data source: book(full english version of Count of Monte Cristo).
+2. Chunking done by size.
+3. Retriver bm25.
+4. Reranker(sentence bert).
+5. LiteLLM library (llama3-8b-8192 model).
+6. Metadata filtering wasn't used.
+7. Citation: user will be provided with the text citation along with Chapter this text belongs to.
+8. Vector database wasn't used.
+9. Web UI done with [gradio](https://www.gradio.app/)
+
