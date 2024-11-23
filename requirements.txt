@@ -1,0 +1,6 @@
+langchain-text-splitters
+transformers==4.31.0
+pandas
+seaborn
+litellm
+python-dotenv
