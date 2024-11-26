@@ -4,3 +4,4 @@ pandas
 seaborn
 litellm
 python-dotenv
+rank_bm25
