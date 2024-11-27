@@ -5,3 +5,6 @@ seaborn
 litellm
 python-dotenv
 rank_bm25
+torch
+sentence-transformers
+huggingface_hub==0.25.2
