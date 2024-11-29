@@ -1,7 +1,7 @@
 RAG project planning:
 1. Data source: book(full english version of Count of Monte Cristo).
 2. Chunking done by size.
-3. Retriver bm25.
+3. Retriver bm25 + bi-encoder.
 4. Reranker(sentence bert).
 5. LiteLLM library (llama3-8b-8192 model).
 6. Metadata filtering wasn't used.
