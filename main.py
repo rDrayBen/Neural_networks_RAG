@@ -14,4 +14,4 @@ def message_respond(message, history):
 gr.ChatInterface(
     fn=message_respond,
     type="messages"
-).launch()
+).launch(share=True)

@@ -7,5 +7,5 @@ RAG project planning:
 6. Metadata filtering wasn't used.
 7. Citation: user will be provided with the text citation along with Chapter this text belongs to.
 8. Vector database wasn't used.
-9. Web UI done with [gradio](https://www.gradio.app/)
+9. Web UI done with gradio
 
