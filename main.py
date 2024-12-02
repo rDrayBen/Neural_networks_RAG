@@ -13,5 +13,10 @@ def message_respond(message, history):
 
 gr.ChatInterface(
     fn=message_respond,
-    type="messages"
-).launch(share=True)
+    type="messages",
+    title="RAG System for 'The Count of Monte Cristo' book",
+    description="Here you can ask any questions in the context of the book 'The Count of Monte Cristo'.",
+    theme=gr.themes.Monochrome(font='Lora', text_size='lg', radius_size='sm'),
+    examples=["Who is Monte Cristo?", "What is the title of Chapter 93?", "Why Edmond Dantes was in prison?", "How many years does Edmon Dantes spent in prison?"],
+    cache_examples=False,
+).launch()
