@@ -64,7 +64,5 @@ class QuestionAnsweringBot:
 
       print('User:', question)
       print('System:', llm_response.choices[0].message.content)
-      if "don't know" not in llm_response.choices[0].message.content:
-        print('Resources:', [chapter for doc in metadata_cleaned for chapter in doc])
-        return f"**{llm_response.choices[0].message.content}**\n\nResources: {[chapter for doc in metadata_cleaned for chapter in doc]}"
-      return f"**{llm_response.choices[0].message.content}**"
+
+      return f"**{llm_response.choices[0].message.content}**\n\nResources: {[chapter for doc in metadata_cleaned for chapter in doc]}"
