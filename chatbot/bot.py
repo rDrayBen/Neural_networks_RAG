@@ -48,6 +48,7 @@ class QuestionAnsweringBot:
 
         response = completion(
                                 model=LLM_CORE_MODEL_NAME,
+                                temperature=0.0,
                                 messages=[
                                     {"role": "system", "content": PROMPT},
                                     {"role": "user", "content": f"Context: {context_text}\nQuestion: {question}"}
