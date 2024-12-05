@@ -32,4 +32,4 @@ The flow of the system is provided further:
 4. Out of all the documents retrieved on the step 3 take 2 most relevant, using cross-encoder('cross-encoder/ms-marco-MiniLM-L-12-v2').
 5. Use these 2 documents for models context.
 
-Deployed RAG system can be found on HuggingFace spaces via this (link)[https://huggingface.co/spaces/RabotiahovDmytro/RAGSystem].
+Deployed RAG system can be found on HuggingFace spaces via this link: https://huggingface.co/spaces/RabotiahovDmytro/RAGSystem.
