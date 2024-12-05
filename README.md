@@ -30,6 +30,6 @@ The flow of the system is provided further:
 2. Find 20% of the most relevant documents from the whole corpus using bm25.
 3. Take 50% of the most relevant documents retrieved on the step 2 using bi-encoder('all-MiniLM-L6-v2').
 4. Out of all the documents retrieved on the step 3 take 2 most relevant, using cross-encoder('cross-encoder/ms-marco-MiniLM-L-12-v2').
-5. Use these 2 documents for models context.
+5. Use these 2 documents for models context('groq/llama3-8b-8192').
 
 Deployed RAG system can be found on HuggingFace spaces via this link: https://huggingface.co/spaces/RabotiahovDmytro/RAGSystem.
